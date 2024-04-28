@@ -1,0 +1,82 @@
+#root {
+  width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  /*background: linear-gradient(to right, lightgreen, lightblue); */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+}
+.formulario-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.registro-container {
+  background-color: transparent;
+  border-radius: 2px solid black;
+  
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px solid black;
+  background-color: transparent;
+}
+
+.container h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.container .icons {
+  display: flex;
+  gap: 15px;
+  margin: 5px;
+  background-color: transparent;
+}
+
+.container .icons .subIcon {
+  border-radius: 50%;
+  padding: 4px 10px;
+  border: solid 1px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.container p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.container form {
+  width: 100%;
+}
+
+
+.container form button {
+  border-radius: 4px;
+  color: aliceblue;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.container .alert {
+  width: 100%;
+  margin: 0;  
+  padding: 10px;
+  font-size: 12px;
+}
